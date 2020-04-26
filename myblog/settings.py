@@ -126,8 +126,9 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 CORS_ORIGIN_WHITELIST = [
-
-    "http://localhost:3000",
+    
+    "https://murat0901.herokuapp.com",
+    "http://localhost:3000"
 
 ]
 
