@@ -22,7 +22,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'v%^u1bb&izdzyxok$o+-du0_d@dh7+p2f_3y#)0(&w8%4v_dez'
+SECRET_KEY = 'secret'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -134,3 +134,5 @@ CORS_ORIGIN_WHITELIST = [
 
 # Activate Django-Heroku.
 django_heroku.settings(locals())
+
+from .settings_local import *
